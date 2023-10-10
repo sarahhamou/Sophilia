@@ -1,0 +1,27 @@
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../images/background.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: whitesmoke;
+    padding: 150px 0px;
+    text-align: center; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); 
+    border-radius: 5px; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+.banner h1 {
+    font-size: 36px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.banner h2 {
+    font-size: 18px; 
+    font-weight: lighter; 
+    color: #ff3355; 
+    margin-top: 20px; 
+    opacity: 30%;
+}

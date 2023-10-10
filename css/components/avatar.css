@@ -1,0 +1,31 @@
+.avatar {
+    width: 100%;
+    max-width: 840px; /* Taille maximale de l'avatar en largeur */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fond transparent */
+    border: 2px solid #e0e0e0; /* Bordure grise */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: center; /* Centre le contenu */
+}
+
+.avatar img {
+    width: 100%;
+    max-width: 100%; /* Ajuste la largeur de l'image pour s'adapter au conteneur */
+    height: auto;
+    border-radius: 10px; /* Coins arrondis pour l'image */
+    overflow: hidden; /* Masque les coins arrondis pour un effet de bord lisse */
+}
+.avatar h4 {
+  text-align: center;
+  font-style: italic;
+  font-family: fantasy;
+}
+
+body {
+    background: linear-gradient(to bottom, #f9ede3, #e3d9ca); /* Dégradé de blanc floral vers beige/marron pâle */
+    margin: 0; /* Supprimez les marges par défaut du corps */
+    padding: 0; /* Supprimez les marges internes du corps */
+}
+

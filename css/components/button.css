@@ -1,0 +1,31 @@
+.btn-blue {
+  background-color: #fff3f3;
+  color: #ff3355; 
+  border: 2px solid #ff3355; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  font-family: Lora;
+    display: block; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-size: 18px; 
+    padding: 10px 20px; 
+    font-weight: bold; 
+}
+
+}
+
+.btn-blue:hover {
+  background-color: #ff3355; 
+  color: #fff; 
+}
+.btn-blue {
+    display: block;
+    margin: 0 auto; 
+    text-align: center; 
+
+}
+
+
+
+

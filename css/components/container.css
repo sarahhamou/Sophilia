@@ -1,0 +1,42 @@
+.container {
+    width: 100%;
+    max-width: 800px; /* Largeur maximale de la présentation */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fond transparent */
+    border: 2px solid #e0e0e0; /* Bordure grise */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+@media (max-width: 960px) {
+    .container {
+        padding: 30px; /* Réduire la marge intérieure pour les écrans plus petits */
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        padding: 20px; /* Réduire la marge intérieure pour les écrans encore plus petits */
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        padding: 10px; /* Réduire la marge intérieure pour les écrans très petits */
+    }
+}
+
+.container p {
+    text-align: justify; /* Justifier le texte à l'intérieur de la présentation */
+    font-size: 18px; /* Taille de police */
+    line-height: 1.5; /* Espacement des lignes */
+    margin: 0; /* Supprime la marge par défaut pour les paragraphes */
+    color: #333; /* Couleur de texte */
+}
+body {
+    background: linear-gradient(to bottom, #f9ede3, #e3d9ca); /* Dégradé de blanc floral vers beige/marron pâle */
+    margin: 0; /* Supprimez les marges par défaut du corps */
+    padding: 0; /* Supprimez les marges internes du corps */
+}
+
